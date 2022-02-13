@@ -315,3 +315,89 @@ The optimal sensing modality for localization, mapping, and perception still lac
 Vehicle-to-vehicle communication is still a dream, but work is being done in this area as well.  
 The field of human-machine interaction is not explored enough, with many open, unsolved problems.
 Still, the technology we’ve developed so far is amazing. And with orchestrated efforts, we can ensure that self-driving systems will be safe, robust, and revolutionary.
+
+NN Changes in V9 (2018.39.7)
+
+Have not had much time to look at V9 yet, but I though I’d share some interesting preliminary analysis. Please note that network size estimates here are spreadsheet calculations derived from a large number of raw kernel specifications. I think they’re about right and I’ve checked them over quite carefully but it’s a lot of math and there might be some errors.
+
+First, some observations:
+
+Like V8 the V9 NN (neural net) system seems to consist of a set of what I call ‘camera networks’ which process camera output directly and a separate set of what I call ‘post processing’ networks that take output from the camera networks and turn it into higher level actionable abstractions. So far I’ve only looked at the camera networks for V9 but it’s already apparent that V9 is a pretty big change from V8.
+
+---------------
+One unified camera network handles all 8 cameras
+
+Same weight file being used for all cameras (this has pretty interesting implications and previously V8 main/narrow seems to have had separate weights for each camera)
+
+Processed resolution of 3 front cameras and back camera: 1280x960 (full camera resolution)
+
+Processed resolution of pillar and repeater cameras: 640x480 (1/2x1/2 of camera’s true resolution)
+
+all cameras: 3 color channels, 2 frames (2 frames also has very interesting implications)
+
+(was 640x416, 2 color channels, 1 frame, only main and narrow in V8)
+------------
+
+Various V8 versions included networks for pillar and repeater cameras in the binaries but AFAIK nobody outside Tesla ever saw those networks in operation. Normal AP use on V8 seemed to only include the use of main and narrow for driving and the wide angle forward camera for rain sensing. In V9 it’s very clear that all cameras are being put to use for all the AP2 cars.
+
+The basic camera NN (neural network) arrangement is an Inception V1 type CNN with L1/L2/L3ab/L4abcdefg layer arrangement (architecturally similar to V8 main/narrow camera up to end of inception blocks but much larger)
+about 5x as many weights as comparable portion of V8 net
+about 18x as much processing per camera (front/back)
+The V9 network takes 1280x960 images with 3 color channels and 2 frames per camera from, for example, the main camera. That’s 1280x960x3x2 as an input, or 7.3M. The V8 main camera was 640x416x2 or 0.5M - 13x less data.
+
+For perspective, V9 camera network is 10x larger and requires 200x more computation when compared to Google’s Inception V1 network from which V9 gets it’s underlying architectural concept. That’s processing *per camera* for the 4 front and back cameras. Side cameras are 1/4 the processing due to being 1/4 as many total pixels. With all 8 cameras being processed in this fashion it’s likely that V9 is straining the compute capability of the APE. The V8 network, by comparison, probably had lots of margin.
+
+network outputs:
+V360 object decoder (multi level, processed only)
+back lane decoder (back camera plus final processed)
+side lane decoder (pillar/repeater cameras plus final processed)
+path prediction pp decoder (main/narrow/fisheye cameras plus final processed)
+“super lane” decoder (main/narrow/fisheye cameras plus final processed)
+
+Previous V8 aknet included a lot of processing after the inception blocks - about half of the camera network processing was taken up by non-inception weights. V9 only includes inception components in the camera network and instead passes the inception processed outputs, raw camera frames, and lots of intermediate results to the post processing subsystem. I have not yet examined the post processing subsystem.
+
+And now for some speculation:
+
+Input changes:
+
+The V9 network takes 1280x960 images with 3 color channels and 2 frames per camera from, for example, the main camera. That’s 1280x960x3x2 as an input, or 7.3MB. The V8 main camera processing frame was 640x416x2 or 0.5MB - 13x less data. The extra resolution means that V9 has access to smaller and more subtle detail from the camera, but the more interesting aspect of the change to the camera interface is that camera frames are being processed in pairs. These two pairs are likely time-offset by some small delay - 10ms to 100ms I’d guess - allowing each processed camera input to see motion. Motion can give you depth, separate objects from the background, help identify objects, predict object trajectories, and provide information about the vehicle’s own motion. It's a pretty fundamental improvement to the basic perceptions of the system.
+
+Camera agnostic:
+
+The V8 main/narrow network used the same architecture for both cameras, but by my calculation it was probably using different weights for each camera (probably 26M each for a total of about 52M). This make sense because main/narrow have a very different FOV, which means the precise shape of objects they see varies quite a bit - especially towards the edges of frames. Training each camera separately is going to dramatically simplify the problem of recognizing objects since the variation goes down a lot. That means it’s easier to get decent performance with a smaller network and less training. But it also means you have to build separate training data sets, evaluate them separately, and load two different networks alternately during operation. It also means that you network can learn some bad habits because it always sees the world in the same way.
+
+Building a camera agnostic network relaxes these problems and simultaneously makes the network more robust when used on any individual camera. Being camera agnostic means the network has to have a better sense of what an object looks like under all kinds of camera distortions. That’s a great thing, but it’s very, *very* expensive to achieve because it requires a lot of training, a lot of training data and, probably, a really big network. Nobody builds them so it’s hard to say for sure, but these are probably safe assumptions.
+
+Well, the V9 network appears to be camera agnostic. It can process the output from any camera on the car using the same weight file.
+
+It also has the fringe benefit of improved computational efficiency. Since you just have the one set of weights you don’t have to constantly be swapping weight sets in and out of your GPU memory and, even more importantly, you can batch up blocks of images from all the cameras together and run them through the NN as a set. This can give you a multiple of performance from the same hardware.
+
+I didn’t expect to see a camera agnostic network for a long time. It’s kind of shocking.
+
+Considering network size:
+
+This V9 network is a monster, and that’s not the half of it. When you increase the number of parameters (weights) in an NN by a factor of 5 you don’t just get 5 times the capacity and need 5 times as much training data. In terms of expressive capacity increase it’s more akin to a number with 5 times as many digits. So if V8’s expressive capacity was 10, V9’s capacity is more like 100,000. It’s a mind boggling expansion of raw capacity. And likewise the amount of training data doesn’t go up by a mere 5x. It probably takes at least thousands and perhaps millions of times more data to fully utilize a network that has 5x as many parameters.
+
+This network is far larger than any vision NN I’ve seen publicly disclosed and I’m just reeling at the thought of how much data it must take to train it. I sat on this estimate for a long time because I thought that I must have made a mistake. But going over it again and again I find that it’s not my calculations that were off, it’s my expectations that were off.
+
+Is Tesla using semi-supervised training for V9? They've gotta be using more than just labeled data - there aren't enough humans to label this much data. I think all those simulation designers they hired must have built a machine that generates labeled data for them, but even so.
+
+And where are they getting the datacenter to train this thing? Did Larry give Elon a warehouse full of TPUs?
+
+I mean, seriously...
+
+I look at this thing and I think - oh yeah, HW3. We’re gonna need that. Soon, I think.
+
+Omnidirectionality (V360 object decoder):
+
+With these new changes the NN should be able to identify every object in every direction at distances up to hundreds of meters and also provide approximate instantaneous relative movement for all of those objects. If you consider the FOV overlap of the cameras, virtually all objects will be seen by at least two cameras. That provides the opportunity for downstream processing use multiple perspectives on an object to more precisely localize and identify it.
+
+General thoughts:
+
+I’ve been driving V9 AP2 for a few days now and I find the dynamics to be much improved over recent V8. Lateral control is tighter and it’s been able to beat all the V8 failure scenarios I’ve collected over the last 6 months. Longitudinal control is much smoother, traffic handling is much more comfortable. V9’s ability to prospectively do a visual evaluation on a target lane prior to making a change makes the auto lane change feature a lot more versatile. I suspect detection errors are way down compared to V8 but I also see that a few new failure scenarios have popped up (offramp / onramp speed control seem to have some bugs). I’m excited to see how this looks in a couple of months after they’ve cleaned out the kinks that come with any big change.
+
+Being an avid observer of progress in deep neural networks my primary motivation for looking at AP2 is that it’s one of the few bleeding edge commercial applications that I can get my hands on and I use it as a barometer of how commercial (as opposed to research) applications are progressing. Researchers push the boundaries in search of new knowledge, but commercial applications explore the practical ramifications of new techniques. Given rapid progress in algorithms I had expected near future applications might hinge on the great leaps in efficiency that are coming from new techniques. But that’s not what seems to be happening right now - probably because companies can do a lot just by scaling up NN techniques we already have.
+
+In V9 we see Tesla pushing in this direction. Inception V1 is a four year old architecture that Tesla is scaling to a degree that I imagine inceptions’s creators could not have expected. Indeed, I would guess that four years ago most people in the field would not have expected that scaling would work this well. Scaling computational power, training data, and industrial resources plays to Tesla’s strengths and involves less uncertainty than potentially more powerful but less mature techniques. At the same time Tesla is doubling down on their ‘vision first / all neural networks’ approach and, as far as I can tell, it seems to be going well.
+
+As a neural network dork I couldn’t be more pleased.
