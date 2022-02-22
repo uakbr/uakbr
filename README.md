@@ -1,4 +1,4 @@
-# Hi 👋 I'm Umair.
+# Hi 👋 I'm Umair Akbar.
 
 ## Quick Facts
 * 📚 **Master of Science** (M.S.) in Cybersecurity and Information Assurance (**4.0 GPA**). 
