@@ -33,10 +33,6 @@
 
 # A brief overview of what I do:
 ### Cloud Engineering 
-* I am a Cloud Native Infrastructure Engineer and DevOps Professional. I have a deep understanding of Infrastructure Automation, Cloud Architecture, and Public/Private Cloud Provisioning. My experience includes scaling up infrastructure to meet diverse needs while ensuring compliance with enterprise policies and automation of infrastructure operations.
-* I deploy Infrastructure as Code (Iac) on the cloud, particularly specializing in **Amazon Web Services (AWS)**, **Google Cloud Platform (GCP)**, and **Microsoft Azure**.
-
-### Security Systems Engineer
 * I architect cloud-based systems that are based on these tenets: 
    * **Resiliency** - If something "goes wrong" in the code; the program is able to self-heal or continue without affecting the entire system itself.
    * **Highly-available** - The system is *ideally* available at all times; the system converges towards an error-free state and is therefore self stabilizing.
