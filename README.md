@@ -1,5 +1,3 @@
-# Hi 👋 I'm Umair Akbar.
-
 ## Quick Facts
 * 📚 **Master of Science** (M.S.) in Cybersecurity and Information Assurance (**4.0 GPA**). 
 * 📚 **Bachelor of Science** (B.S.) in Honors Biomedical Sciences (**3.97 GPA**).
