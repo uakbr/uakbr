@@ -43,4 +43,4 @@
    * **Redundancy** - There will always be multiple identical instances of the system and it will switch to one of the redundant instances in case of failover.
    * **Efficiency** - The above three cost a lot to achieve; my designs are extremely efficient. If there is too much code, complexity, both, or either, I will revert the changes and re-create the system until it is. Being efficient and having all three of the above is a requirement. Until that is achieved my work is not complete.
 
-## contact 📩 umair@tesla.com.ai
+## Contact 📩 umair@tesla.com.ai
