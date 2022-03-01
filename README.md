@@ -35,7 +35,7 @@
 
 # A brief overview of what I do:
 ### Cloud Engineering 
-* I architect cloud-based systems that are based on these tenets: 
+* I engineer cloud-based systems that are based on these tenets: 
    * **Resiliency** - If something "goes wrong" in the code; the program is able to self-heal or continue without affecting the entire system itself.
    * **Highly-available** - The system is *ideally* available at all times; the system converges towards an error-free state and is therefore self stabilizing.
    * **Redundancy** - There will always be multiple identical instances of the system and it will switch to one of the redundant instances in case of failover.
