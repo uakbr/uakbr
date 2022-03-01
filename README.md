@@ -1,3 +1,5 @@
+## 📩 umair@tesla.com.ai
+
 ## Quick Facts
 * 📚 **Master of Science** (M.S.) in Cybersecurity and Information Assurance (**4.0 GPA**). 
 * 📚 **Bachelor of Science** (B.S.) in Honors Biomedical Sciences (**3.97 GPA**).
@@ -38,5 +40,3 @@
    * **Highly-available** - The system is *ideally* available at all times; the system converges towards an error-free state and is therefore self stabilizing.
    * **Redundancy** - There will always be multiple identical instances of the system and it will switch to one of the redundant instances in case of failover.
    * **Efficiency** - The above three cost a lot to achieve; my designs are extremely efficient. If there is too much code, complexity, both, or either, I will revert the changes and re-create the system until it is. Being efficient and having all three of the above is a requirement. Until that is achieved my work is not complete.
-
-## Contact 📩 umair@tesla.com.ai
