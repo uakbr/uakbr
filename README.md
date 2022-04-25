@@ -45,4 +45,4 @@
 * [openHadith](https://openhadith.com) - minimal, lightweight, and blazing fast Hadith search engine.
 * [hakkbar](https://hakkbar.com) - portfolio website simulating macOS Catalina's GUI powered by React + React Redux + tailwindcss.
 * [whoneeds.coffee](https://whoneeds.coffee) - lightweight website using the Screen Wake Lock API to prevent your device from sleeping.
-* neural networks from scratch - learn the mechanism of how and why neural networks work the way they do in an interactive, step-by-step tutorial 
+* [neural networks from scratch](https://uakbr.github.io) - learn the mechanism of how and why neural networks work the way they do in an interactive, step-by-step tutorial 
