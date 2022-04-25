@@ -42,6 +42,6 @@
    * **Efficiency** - The above three cost a lot to achieve; my designs are extremely efficient. If there is too much code, complexity, both, or either, I will revert the changes and re-create the system until it is. Being efficient and having all three of the above is a requirement. Until that is achieved my work is not complete.
 
 # To Do / Add Later
-* [OpenHadith.com](https://openhadith.com) - minimal, lightweight, and blazing fast Hadith search engine.
-* [Hakkbar.com](https://hakkbar.com) - portfolio website simulating macOS Catalina's GUI powered by React + React Redux + tailwindcss.
+* [openHadith.com](https://openhadith.com) - minimal, lightweight, and blazing fast Hadith search engine.
+* [hakkbar.com](https://hakkbar.com) - portfolio website simulating macOS Catalina's GUI powered by React + React Redux + tailwindcss.
 * [whoneeds.coffee](https://whoneeds.coffee) - lightweight website using the Screen Wake Lock API to prevent your device from sleeping.
