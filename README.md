@@ -1,12 +1,18 @@
 ## 📩 umair@tesla.com.ai
 
-## Quick Facts
+## ☑ Quick Facts
 * 📚 **Master of Science** (M.S.) in Cybersecurity and Information Assurance (**4.0 GPA**). 
 * 📚 **Bachelor of Science** (B.S.) in Honors Biomedical Sciences (**3.97 GPA**).
 * 🔬 My research has been published in peer-reviewed medical journals and **[*has been cited over 135 times*](https://scholar.google.com/citations?user=aRS4MOUAAAAJ&hl=en&oi=sra).**
 * ☑ Akbar, Umair, et al. Omega-3 fatty acids in rheumatic diseases: a critical review. [*JCR: Journal of Clinical Rheumatology*.](https://journals.lww.com/jclinrheum/fulltext/2017/09000/Omega_3_Fatty_Acids_in_Rheumatic_Diseases__A.6.aspx)
 * ☑ Yang, M., Akbar, U. and Mohan, C., 2019. Curcumin in autoimmune and rheumatic diseases. [*Nutrients*.](https://www.mdpi.com/2072-6643/11/5/1004)
 * ☑ Ding, H., Akbar, U., Mohan, C., 2016. Promises and challenges of metabolomics in SLE. [*Nature Reviews Rheumatology*.](https://www.nature.com/articles/nrrheum.2016.163)
+
+## 📚 Books
+
+[![book1](https://i.imgur.com/DtMmNJi.jpg)](https://books.apple.com/us/book/id1621513146)
+* Implementing Zero Trust Architecture: An Enterprise Guide
+  * [Barnes and Noble](https://www.barnesandnoble.com/w/implementing-zero-trust-architecture-umair-akbar/1141399053;jsessionid=5A116CDEFBF015903BC983C96E46297A.prodny_store02-atgap18?ean=2940166364616) | [Apple Books](https://books.apple.com/us/book/id1621513146)
 
 ## Projects
 
@@ -47,3 +53,4 @@
 * [hakkbar](https://hakkbar.com) - portfolio website simulating macOS Catalina's GUI powered by React + React Redux + tailwindcss.
 * [whoneeds.coffee](https://whoneeds.coffee) - lightweight website using the Screen Wake Lock API to prevent your device from sleeping.
 * [neural networks from scratch](https://uakbr.github.io) - learn the mechanism of how and why neural networks work the way they do in an interactive, step-by-step tutorial 
+* iPodJs
