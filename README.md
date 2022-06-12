@@ -1,5 +1,4 @@
-## 📩 [umair@tesla.com.ai](https://tesla.com)
-## 📩 [umair@lyft.com.de](https://lyft.com)
+## 📩 [umair@tesla.com.ai](https://tesla.com) || ## 📩 [umair@lyft.com.de](https://lyft.com)
 
 ## ☑ **Quick Facts**>
 ### * 📚 **Master of Science** (M.S.) in Cybersecurity and Information Assurance (**4.0 GPA**). 
