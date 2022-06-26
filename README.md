@@ -54,3 +54,5 @@
 * [whoneeds.coffee](https://whoneeds.coffee) - lightweight website using the Screen Wake Lock API to prevent your device from sleeping.
 * [neural networks from scratch](https://uakbr.github.io) - learn the mechanism of how and why neural networks work the way they do in an interactive, step-by-step tutorial 
 * iPodJs
+* [Pathfinding Algorithms](https://uakbr.github.io/Pathfinding-Algorithms/)
+* Tesla Autopilot explanation
