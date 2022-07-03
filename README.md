@@ -67,11 +67,15 @@
 ## ☑ More Projects and websites I have created
 
 * https://umoogle.com
-  * Search results from Google delivered without advertisements, javascript, AMP links, cookies, or IP address tracking. a self-hosted metasearch engine that respects privacy and is ad-free
+  * Search results from Google delivered without advertisements, cookies, or IP address tracking and respects privacy.
 
 [![umoogle](umm.svg)](https://umoogle.com)
 
-* [openHadith](https://openhadith.com) - minimal, lightweight, and blazing fast Hadith search engine.
+* https://openhadith.com
+  * Minimal, lightweight, and blazing fast Hadith search engine with approrpiate links to scripture.
+  
+[![openhadith](openhadith.svg)](https://openhadith.com)
+
 * [hakkbar](https://hakkbar.com) - portfolio website simulating macOS Catalina's GUI powered by React + React Redux + tailwindcss.
 * [whoneeds.coffee](https://whoneeds.coffee) - lightweight website using the Screen Wake Lock API to prevent your device from sleeping.
 * [neural networks from scratch](https://uakbr.github.io) - learn the mechanism of how and why neural networks work the way they do in an interactive, step-by-step tutorial 
