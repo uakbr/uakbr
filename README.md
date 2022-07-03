@@ -10,11 +10,13 @@
 
 ## ☑ Projects
 
+* Moving to a vision only system for our Autopilot algorithm. Post coming soon, stay tuned!
+
+[![beforeafter](beforeafter.gif)](https://mahriq.com)
+
 [![tesla](tesla_autopilot_0023.gif)](https://mahriq.com)
 
 [![tesla_f1](tesla_f1.gif)](https://mahriq.com)
-
-[![tesla_f2](tesla_f2.gif)](https://mahriq.com)
 
 ## 📚 Books Authored and Published
 
