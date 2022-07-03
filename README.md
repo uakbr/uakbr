@@ -14,13 +14,7 @@
 * Implementing Zero Trust Architecture: An Enterprise Guide
   * [Barnes and Noble](https://www.barnesandnoble.com/w/implementing-zero-trust-architecture-umair-akbar/1141399053;jsessionid=5A116CDEFBF015903BC983C96E46297A.prodny_store02-atgap18?ean=2940166364616) | [Apple Books](https://books.apple.com/us/book/id1621513146)
 
-## Projects
-
-[![tesla](tesla_autopilot_0023.gif)](https://mahriq.com)
-
-[![tesla_f1](tesla_f1.gif)](https://mahriq.com)
-
-[![tesla_f2](tesla_f2.gif)](https://mahriq.com)
+## 🎵 Music
 
 [![artist](artist.svg)](https://open.spotify.com/artist/1EJY3MrNfUQOnJigx1QUpi)
 
@@ -29,6 +23,18 @@
 [![youtube](yt.svg)](https://music.youtube.com/channel/UC0tlPj-YmtXn93AcJQA5rRg?feature=gws_kp_artist&feature=gws_kp_artist)
 [![shazam](shazam.svg)](https://www.shazam.com/artist/4kbar/1611347573)
 
+ * The music I created was done by training an artificial intelligence model equivalent to around 80,000 hrs of GPU runtime via PyTorch.
+ * Although the music itself is mediocre, I created it because I wanted to showcase that anyone can become a verified artist now. 
+ * I employed neural networks to generate totally original, copyright-protected content. 
+ * I am NOT looking to be the next NAV, please 😂 I also do not listen to this genre of music.
+
+## Projects
+
+[![tesla](tesla_autopilot_0023.gif)](https://mahriq.com)
+
+[![tesla_f1](tesla_f1.gif)](https://mahriq.com)
+
+[![tesla_f2](tesla_f2.gif)](https://mahriq.com)
 
 ## Credentials
   
@@ -56,11 +62,11 @@
    * **Redundancy** - There will always be multiple identical instances of the system and it will switch to one of the redundant instances in case of failover.
    * **Efficiency** - The above three cost a lot to achieve; my designs are extremely efficient. If there is too much code, complexity, both, or either, I will revert the changes and re-create the system until it is. Being efficient and having all three of the above is a requirement. Until that is achieved my work is not complete.
 
-### To Do / Add Later
+### More Projects and websites I have created
 * [openHadith](https://openhadith.com) - minimal, lightweight, and blazing fast Hadith search engine.
 * [hakkbar](https://hakkbar.com) - portfolio website simulating macOS Catalina's GUI powered by React + React Redux + tailwindcss.
 * [whoneeds.coffee](https://whoneeds.coffee) - lightweight website using the Screen Wake Lock API to prevent your device from sleeping.
 * [neural networks from scratch](https://uakbr.github.io) - learn the mechanism of how and why neural networks work the way they do in an interactive, step-by-step tutorial 
-* iPodJs
+* iPodJs // to do later
 * [Pathfinding Algorithms](https://uakbr.github.io/Pathfinding-Algorithms/)
-* Tesla Autopilot explanation
+* Tesla Autopilot explanation  // to do later
