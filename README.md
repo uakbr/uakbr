@@ -8,6 +8,14 @@
  * ☑ Yang, M., Akbar, U. and Mohan, C., 2019. Curcumin in autoimmune and rheumatic diseases. [*Nutrients*.](https://www.mdpi.com/2072-6643/11/5/1004)
  * ☑ Ding, H., Akbar, U., Mohan, C., 2016. Promises and challenges of metabolomics in SLE. [*Nature Reviews Rheumatology*.](https://www.nature.com/articles/nrrheum.2016.163)
 
+## ☑ Projects
+
+[![tesla](tesla_autopilot_0023.gif)](https://mahriq.com)
+
+[![tesla_f1](tesla_f1.gif)](https://mahriq.com)
+
+[![tesla_f2](tesla_f2.gif)](https://mahriq.com)
+
 ## 📚 Books Authored and Published
 
 [![book1](https://i.imgur.com/DtMmNJi.jpg)](https://books.apple.com/us/book/id1621513146)
@@ -26,17 +34,10 @@
  * The music I created was done by training an artificial intelligence model equivalent to around 80,000 hrs of GPU runtime via PyTorch.
  * Although the music itself is mediocre, I created it because I wanted to showcase that anyone can become a verified artist now. 
  * I employed neural networks to generate totally original, copyright-protected content. 
- * I am NOT looking to be the next NAV, please 😂 I also do not listen to this genre of music.
+ * I am NOT looking to be the next NAV, please 😂 
+   * P.S. I do not listen to orchestral music (which is what my produced music is mainly).
 
-## Projects
-
-[![tesla](tesla_autopilot_0023.gif)](https://mahriq.com)
-
-[![tesla_f1](tesla_f1.gif)](https://mahriq.com)
-
-[![tesla_f2](tesla_f2.gif)](https://mahriq.com)
-
-## Credentials
+## ☑ Credentials
   
 [![logo](https://i.imgur.com/BagDNhk.png)](https://www.youracclaim.com/badges/b229b999-dc0f-4ff3-b8d3-f9456664edd2/public_url)
 [![logo2](https://i.imgur.com/aim7FpB.png)](https://www.youracclaim.com/badges/54a21319-478b-48f6-a82e-41b610b8cf98/public_url)
@@ -54,15 +55,20 @@
 * Certified Data Privacy Solutions Engineer (CDPSE)
 * Google Professional Cloud Network Engineer
 
-## A brief overview of what I do:
-### Cloud Engineering 
+## ☑ A brief overview of what I do: **Cloud Engineering**
 * I engineer cloud-based systems that are based on these tenets: 
    * **Resiliency** - If something "goes wrong" in the code; the program is able to self-heal or continue without affecting the entire system itself.
    * **Highly-available** - The system is *ideally* available at all times; the system converges towards an error-free state and is therefore self stabilizing.
    * **Redundancy** - There will always be multiple identical instances of the system and it will switch to one of the redundant instances in case of failover.
    * **Efficiency** - The above three cost a lot to achieve; my designs are extremely efficient. If there is too much code, complexity, both, or either, I will revert the changes and re-create the system until it is. Being efficient and having all three of the above is a requirement. Until that is achieved my work is not complete.
 
-### More Projects and websites I have created
+## ☑ More Projects and websites I have created
+
+* https://umoogle.com
+  * Search results from Google delivered without advertisements, javascript, AMP links, cookies, or IP address tracking. a self-hosted metasearch engine that respects privacy and is ad-free
+
+[![umoogle](umm.svg)](https://umoogle.com)
+
 * [openHadith](https://openhadith.com) - minimal, lightweight, and blazing fast Hadith search engine.
 * [hakkbar](https://hakkbar.com) - portfolio website simulating macOS Catalina's GUI powered by React + React Redux + tailwindcss.
 * [whoneeds.coffee](https://whoneeds.coffee) - lightweight website using the Screen Wake Lock API to prevent your device from sleeping.
