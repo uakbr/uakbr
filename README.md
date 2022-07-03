@@ -24,6 +24,12 @@
 
 [![artist](artist.svg)](https://open.spotify.com/artist/1EJY3MrNfUQOnJigx1QUpi)
 
+[![spotify](spotify.svg)](https://open.spotify.com/artist/1EJY3MrNfUQOnJigx1QUpi)
+[![apple](apple.svg)](https://music.apple.com/us/artist/4kbar/1611347573)
+[![youtube](yt.svg)](https://music.youtube.com/channel/UC0tlPj-YmtXn93AcJQA5rRg?feature=gws_kp_artist&feature=gws_kp_artist)
+[![shazam](shazam.svg)](https://www.shazam.com/artist/4kbar/1611347573)
+
+
 ## Credentials
   
 [![logo](https://i.imgur.com/BagDNhk.png)](https://www.youracclaim.com/badges/b229b999-dc0f-4ff3-b8d3-f9456664edd2/public_url)
