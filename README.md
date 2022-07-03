@@ -22,6 +22,8 @@
 
 [![tesla_f2](tesla_f2.gif)](https://mahriq.com)
 
+[![artist](artist.svg)](https://open.spotify.com/artist/1EJY3MrNfUQOnJigx1QUpi)
+
 ## Credentials
   
 [![logo](https://i.imgur.com/BagDNhk.png)](https://www.youracclaim.com/badges/b229b999-dc0f-4ff3-b8d3-f9456664edd2/public_url)
