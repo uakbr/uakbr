@@ -10,8 +10,6 @@
 
 ## ☑ Projects
 
-* Moving to a vision only system for our Autopilot algorithm. Post coming soon, stay tuned!
-
 [![beforeafter](beforeafter.gif)](https://mahriq.com)
 
 [![tesla](tesla_autopilot_0023.gif)](https://mahriq.com)
@@ -34,10 +32,7 @@
 [![shazam](shazam.svg)](https://www.shazam.com/artist/4kbar/1611347573)
 
  * The music I created was done by training an artificial intelligence model equivalent to around 80,000 hrs of GPU runtime via PyTorch.
- * Although the music itself is mediocre, I created it because I wanted to showcase that anyone can become a verified artist now. 
- * I employed neural networks to generate totally original, copyright-protected content. 
- * I am NOT looking to be the next NAV, please 😂 
-   * P.S. I do not listen to orchestral music (which is what my produced music is mainly).
+ * I employed neural networks to generate totally original, copyright-protected content.
 
 ## ☑ Credentials
   
@@ -69,16 +64,11 @@
 * https://umoogle.com
   * Search results from Google delivered without advertisements, cookies, or IP address tracking and respects privacy.
 
-[![umoogle](umm.svg)](https://umoogle.com)
-
 * https://openhadith.com
   * Minimal, lightweight, and blazing fast Hadith search engine with approrpiate links to scripture.
-  
-[![openhadith](openhadith.svg)](https://openhadith.com)
 
-* [hakkbar](https://hakkbar.com) - portfolio website simulating macOS Catalina's GUI powered by React + React Redux + tailwindcss.
+* [hakkbar](https://xurs.netlify.app) - portfolio website simulating macOS Catalina's GUI powered by React + React Redux + tailwindcss.
 * [whoneeds.coffee](https://whoneeds.coffee) - lightweight website using the Screen Wake Lock API to prevent your device from sleeping.
 * [neural networks from scratch](https://uakbr.github.io) - learn the mechanism of how and why neural networks work the way they do in an interactive, step-by-step tutorial 
-* iPodJs // to do later
 * [Pathfinding Algorithms](https://uakbr.github.io/Pathfinding-Algorithms/)
-* Tesla Autopilot explanation  // to do later
+* iPodJs // to do later
