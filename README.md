@@ -66,6 +66,9 @@
 
 * https://openhadith.com
   * Minimal, lightweight, and blazing fast Hadith search engine with approrpiate links to scripture.
+  
+* https://lmao.cc
+  * Wordle clone made using React and Typescript JS. Deployable in one click via Netlify. 
 
 * [hakkbar](https://xurs.netlify.app) - portfolio website simulating macOS Catalina's GUI powered by React + React Redux + tailwindcss.
 * [whoneeds.coffee](https://whoneeds.coffee) - lightweight website using the Screen Wake Lock API to prevent your device from sleeping.
