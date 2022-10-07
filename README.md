@@ -19,8 +19,12 @@
 ## 📚 Books Authored and Published
 
 [![book1](https://i.imgur.com/DtMmNJi.jpg)](https://books.apple.com/us/book/id1621513146)
-* Implementing Zero Trust Architecture: An Enterprise Guide
+* **Implementing Zero Trust Architecture: An Enterprise Guide**
   * [Barnes and Noble](https://www.barnesandnoble.com/w/implementing-zero-trust-architecture-umair-akbar/1141399053;jsessionid=5A116CDEFBF015903BC983C96E46297A.prodny_store02-atgap18?ean=2940166364616) | [Apple Books](https://books.apple.com/us/book/id1621513146)
+  
+[![book2](https://i.imgur.com/4acaStX.png)](https://books.apple.com/us/book/id6443738531)
+* **Apple Secure Enclave Processor**
+  * [Apple Books](https://books.apple.com/us/book/id6443738531)
 
 ## 🎵 Music
 
