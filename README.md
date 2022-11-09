@@ -30,7 +30,7 @@
 
 [![artist](artist.svg)](https://open.spotify.com/artist/0tY0iyhHQHdH33HYIipFZv)
 
-[![spotify](spotify.svg)](https://open.spotify.com/artist/1EJY3MrNfUQOnJigx1QUpi)
+[![spotify](spotify.svg)](https://open.spotify.com/artist/0tY0iyhHQHdH33HYIipFZv)
 [![apple](apple.svg)](https://music.apple.com/us/artist/4kbar/1611347573)
 [![youtube](yt.svg)](https://music.youtube.com/channel/UC0tlPj-YmtXn93AcJQA5rRg?feature=gws_kp_artist&feature=gws_kp_artist)
 [![shazam](shazam.svg)](https://www.shazam.com/artist/4kbar/1611347573)
