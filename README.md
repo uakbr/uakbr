@@ -28,7 +28,7 @@
 
 ## 🎵 Music
 
-[![artist](artist.svg)](https://open.spotify.com/artist/1EJY3MrNfUQOnJigx1QUpi)
+[![artist](artist.svg)](https://open.spotify.com/artist/0tY0iyhHQHdH33HYIipFZv)
 
 [![spotify](spotify.svg)](https://open.spotify.com/artist/1EJY3MrNfUQOnJigx1QUpi)
 [![apple](apple.svg)](https://music.apple.com/us/artist/4kbar/1611347573)
