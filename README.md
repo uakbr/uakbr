@@ -10,17 +10,17 @@
 
 ## ☑ Projects
 
-## Tesla Full Self-Driving - Pseudo Lidar Vision Based Approach
+# Tesla Full Self-Driving - Pseudo Lidar Vision Based Approach
 
-[![tezlafsd.gif](tezlafsd.gif)](https://github.com/uakbr/uakbr)
+[![tezlafsd.gif](tezlafsd.gif)](https://github.com/uakbr/)
 
-[![beforeafter](beforeafter.gif)](https://github.com/uakbr/uakbr)
+[![beforeafter](beforeafter.gif)](https://github.com/uakbr/)
 
-## Tesla Self-Driving (OLD) - Radar-based
+# Tesla Self-Driving (OLD) - Radar-based
 
-[![tesla](tesla_autopilot_0023.gif)](https://github.com/uakbr/uakbr)
+[![tesla](tesla_autopilot_0023.gif)](https://github.com/uakbr/)
 
-[![tesla_f1](tesla_f1.gif)](https://github.com/uakbr/uakbr)
+[![tesla_f1](tesla_f1.gif)](https://github.com/uakbr/)
 
 ## 📚 Books Authored and Published
 
