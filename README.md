@@ -10,13 +10,13 @@
 
 ## ☑ Projects
 
-### Tesla Full Self-Driving - Pseudo Lidar Vision Based Approach
+## Tesla Full Self-Driving - Pseudo Lidar Vision Based Approach
 
 [![tezlafsd.gif](tezlafsd.gif)](https://tesla.com)
 
 [![beforeafter](beforeafter.gif)](https://tesla.com)
 
-### Tesla Self-Driving (OLD) - Radar-based
+## Tesla Self-Driving (OLD) - Radar-based
 
 [![tesla](tesla_autopilot_0023.gif)](https://tesla.com)
 
