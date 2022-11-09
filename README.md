@@ -10,11 +10,17 @@
 
 ## ☑ Projects
 
-[![beforeafter](beforeafter.gif)](https://mahriq.com)
+### Tesla Full Self-Driving - Pseudo Lidar Vision Based Approach
 
-[![tesla](tesla_autopilot_0023.gif)](https://mahriq.com)
+[![tezlafsd.gif](tezlafsd.gif)](https://tesla.com)
 
-[![tesla_f1](tesla_f1.gif)](https://mahriq.com)
+[![beforeafter](beforeafter.gif)](https://tesla.com)
+
+### Tesla Self-Driving (OLD) - Radar-based
+
+[![tesla](tesla_autopilot_0023.gif)](https://tesla.com)
+
+[![tesla_f1](tesla_f1.gif)](https://tesla.com)
 
 ## 📚 Books Authored and Published
 
