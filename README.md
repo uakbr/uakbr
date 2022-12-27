@@ -1,9 +1,10 @@
 ## 📩 [umair@tesla.com.ai](https://tesla.com)
 
 ## ☑ **About me**
- * 📚 **Master of Science** (M.S.) in Cybersecurity and Information Assurance (**4.0 GPA**). 
- * 📚 **Bachelor of Science** (B.S.) in Honors Biomedical Sciences (**3.97 GPA**).
- * 🔬 My research has been published in peer-reviewed medical journals and **[*has been cited over 300 times*](https://scholar.google.com/citations?user=aRS4MOUAAAAJ&hl=en&oi=sra).**
+ * 📚 **Master (MBA)** of Business Administration (**4.0 GPA**).
+ * 📚 **Master of Science (MS)** in Cybersecurity and Information Assurance (**4.0 GPA**). 
+ * 📚 **Bachelor of Science (B.S.)** in Honors Biomedical Sciences (**3.97 GPA**).
+ * 🔬 My research has been published in peer-reviewed medical journals and **[*has been cited over 340 times*](https://scholar.google.com/citations?user=aRS4MOUAAAAJ&hl=en&oi=sra).**
  * ☑ Akbar, Umair, et al. Omega-3 fatty acids in rheumatic diseases: a critical review. [*JCR: Journal of Clinical Rheumatology*.](https://journals.lww.com/jclinrheum/fulltext/2017/09000/Omega_3_Fatty_Acids_in_Rheumatic_Diseases__A.6.aspx)
  * ☑ Yang, M., Akbar, U. and Mohan, C., 2019. Curcumin in autoimmune and rheumatic diseases. [*Nutrients*.](https://www.mdpi.com/2072-6643/11/5/1004)
  * ☑ Ding, H., Akbar, U., Mohan, C., 2016. Promises and challenges of metabolomics in SLE. [*Nature Reviews Rheumatology*.](https://www.nature.com/articles/nrrheum.2016.163)
@@ -45,13 +46,17 @@
  * I employed neural networks to generate totally original, copyright-protected content.
 
 ## ☑ Credentials
-  
-[![logo](https://i.imgur.com/BagDNhk.png)](https://www.youracclaim.com/badges/b229b999-dc0f-4ff3-b8d3-f9456664edd2/public_url)
-[![logo2](https://i.imgur.com/aim7FpB.png)](https://www.youracclaim.com/badges/54a21319-478b-48f6-a82e-41b610b8cf98/public_url)
-[![logo3](https://i.imgur.com/gtYIGoM.png)](https://aspen.eccouncil.org/VerifyBadge?type=certification&a=ZJFpQkZIF+28c8vibHmygrnbK149R/I69YBzzbXuDDA=)
+
 [![logo4](https://i.imgur.com/kdfNfKj.png)](https://www.youracclaim.com/badges/3941f370-35ff-4f61-808f-729acb2d7c8f/public_url)
 [![logo6](https://i.imgur.com/WU0SVTl.png)](https://www.credly.com/badges/38ae040e-b0c8-4a3c-a4a8-74dfbaaa3eeb/)
+[![logo6](https://i.imgur.com/0Co5crk.png)](https://www.credly.com/badges/9ccff3fc-f9b7-46d6-a4ef-31f181681911)
 [![logo5](https://i.imgur.com/8afqjb6.png)](https://www.credential.net/612b882c-fbed-449b-8e8f-9293c85afb1d/)
+[![logo2](https://i.imgur.com/aim7FpB.png)](https://www.youracclaim.com/badges/54a21319-478b-48f6-a82e-41b610b8cf98/public_url)
+[![logo](https://i.imgur.com/BagDNhk.png)](https://www.youracclaim.com/badges/b229b999-dc0f-4ff3-b8d3-f9456664edd2/public_url)
+[![logo9](https://i.imgur.com/fBVtA2m.png)](https://www.credly.com/badges/4728ba45-9769-4e7d-a77e-7c917dc29b1b)
+[![logo7](https://i.imgur.com/AZsvZkX.png)](https://www.credly.com/badges/d79dbccf-3119-4ee8-b999-364966cdc1a7)
+[![logo8](https://i.imgur.com/c28MIPh.png)](https://www.credly.com/badges/7d6346ee-e984-4cc9-b90a-a90ea39be7ca)
+[![logo3](https://i.imgur.com/gtYIGoM.png)](https://aspen.eccouncil.org/VerifyBadge?type=certification&a=ZJFpQkZIF+28c8vibHmygrnbK149R/I69YBzzbXuDDA=)
 
 ## ✔ Each badge above is clickable to verify the authenticity of my achievements.
 
