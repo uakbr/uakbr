@@ -60,12 +60,27 @@
 
 ## ✔ Each badge above is clickable to verify the authenticity of my achievements.
 
+## Accreditations:
+* Master of Science (M.S.) in Cybersecurity and Information Assurance
+* GIAC Cloud Security Automation Certification (GCSA)
+* Certificate of Cloud Auditing Knowledge (CCAK)
+* AWS Certified Security - Specialty (SCS-C01)
 * AWS Certified Solutions Architect - Professional (SAP-C01)
 * AWS Certified Solutions Architect - Associate (SAA-C02)
+* Microsoft Azure Certified: Azure Solutions Architect Expert
+* Microsoft Azure Certified: DevOps Engineer Expert
+* Microsoft Azure Certified: Azure Administrator Associate
+* Microsoft Azure Certified: Azure Security Engineer Associate
+* Microsoft Azure Certified: Cybersecurity Architect Expert
 * Certified Information Systems Auditor (CISA)
 * Certified Ethical Hacker (CEH)
 * Certified Data Privacy Solutions Engineer (CDPSE)
-* Google Professional Cloud Network Engineer
+* Google Professional Cloud Architect
+* Microsoft Cybersecurity Architect (SC-100)
+* Designing Microsoft Azure Infrastructure Solutions (AZ-305)
+* Designing and Implementing Microsoft DevOps Solutions (AZ-400)
+* Microsoft Azure Administrator (AZ-104)
+* Microsoft Azure Security Technologies (AZ-500)
 
 ## ☑ A brief overview of what I do: **Cloud Engineering**
 * I engineer cloud-based systems that are based on these tenets: 
