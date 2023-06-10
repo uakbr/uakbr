@@ -1,4 +1,7 @@
-## 📩 [umair@tesla.com.ai](https://tesla.com)
+## National Lead, Machine Learning and Artificial Intelligence @ OpenAi
+## Helping build the next generation of ChatGPT :)
+### Ex-Tesla, Ex-Deloitte
+### 📩 [umair@tesla.com.ai](https://tesla.com)
 
 ## ☑ **About me**
  * 📚 **Master (MBA)** of Business Administration (**4.0 GPA**).
