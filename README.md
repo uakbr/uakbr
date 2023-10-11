@@ -1,6 +1,4 @@
-## National Lead, ML/AI Engineer @ OpenAi
-### Helping build the next generation of ChatGPT :)
-### Ex-Tesla, Ex-Deloitte
+
 ### 📩 [umair@tesla.com.ai](https://tesla.com)
 ### 📩 [umair@openai.com.se](https://openai.com)
 
