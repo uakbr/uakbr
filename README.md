@@ -15,9 +15,9 @@
 
 # Tesla Full Self-Driving - Pseudo Lidar Vision Based Approach
 
-[![tezlafsd.gif](tezlafsd.gif)](https://github.com/uakbr/)
+[![tezlafsd.gif](tezlafsd.gif)](https://github.com/uakbr/tesla-blogs/issues/1)
 
-[![beforeafter](beforeafter.gif)](https://github.com/uakbr/)
+[![beforeafter](beforeafter.gif)](https://github.com/uakbr/tesla-blogs/issues/1)
 
 # Tesla Self-Driving (OLD) - Radar-based
 
