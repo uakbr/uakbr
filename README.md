@@ -1,6 +1,5 @@
 
 ### 📩 [umair@tesla.com.ai](https://tesla.com)
-### 📩 [umair@openai.com.se](https://openai.com)
 
 ## ☑ **About me**
  * 📚 **Master (MBA)** of Business Administration (**4.0 GPA**).
