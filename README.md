@@ -2,6 +2,8 @@
 ### 📩 [umair@tesla.com.ai](https://tesla.com)
 
 ## ☑ **About me**
+ * I am a PhD candidate specializing in artificial intelligence.
+ * 📚 **Master (MBA)** of Business Administration (**4.0 GPA**).
  * 📚 **Master of Science (MS)** in Cybersecurity and Information Assurance (**4.0 GPA**). 
  * 📚 **Bachelor of Science (B.S.)** in Honors Biomedical Sciences (**3.97 GPA**).
  * 🔬 My research has been published in peer-reviewed medical journals and **[*has been cited over 370 times*](https://scholar.google.com/citations?user=aRS4MOUAAAAJ&hl=en&oi=sra).**
