@@ -3,10 +3,9 @@
 
 ## ☑ **About me**
  * I am a PhD candidate specializing in artificial intelligence.
- * 📚 **Master (MBA)** of Business Administration (**4.0 GPA**).
  * 📚 **Master of Science (MS)** in Cybersecurity and Information Assurance (**4.0 GPA**). 
  * 📚 **Bachelor of Science (B.S.)** in Honors Biomedical Sciences (**3.97 GPA**).
- * 🔬 My research has been published in peer-reviewed medical journals and **[*has been cited over 370 times*](https://scholar.google.com/citations?user=aRS4MOUAAAAJ&hl=en&oi=sra).**
+ * 🔬 My research has been published in peer-reviewed medical journals and **[*has been cited over 200 times*](https://scholar.google.com/citations?user=aRS4MOUAAAAJ&hl=en&oi=sra).**
  * ☑ Akbar, Umair, et al. Omega-3 fatty acids in rheumatic diseases: a critical review. [*JCR: Journal of Clinical Rheumatology*.](https://journals.lww.com/jclinrheum/fulltext/2017/09000/Omega_3_Fatty_Acids_in_Rheumatic_Diseases__A.6.aspx)
  * ☑ Yang, M., Akbar, U. and Mohan, C., 2019. Curcumin in autoimmune and rheumatic diseases. [*Nutrients*.](https://www.mdpi.com/2072-6643/11/5/1004)
  * ☑ Ding, H., Akbar, U., Mohan, C., 2016. Promises and challenges of metabolomics in SLE. [*Nature Reviews Rheumatology*.](https://www.nature.com/articles/nrrheum.2016.163)
