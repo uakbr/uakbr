@@ -12,6 +12,16 @@
 
 ## ☑ Projects
 
+# Byte Latent Transformers (BLT) vs Traditional Tokenization
+
+<p align="center">
+  <a href="https://byte-latent.netlify.app/">
+    <img src="https://i.imgur.com/lotHaia.gif" alt="Byte Latent Transformers Demo" />
+  </a>
+</p>
+
+*An interactive tutorial I created on BLTs versus traditional tokenization.*
+
 # Tesla Full Self-Driving - Pseudo Lidar Vision Based Approach
 
 [![tezlafsd.gif](tezlafsd.gif)](https://github.com/uakbr/tesla-blogs/issues/1)
