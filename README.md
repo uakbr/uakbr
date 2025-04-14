@@ -4,7 +4,6 @@
 ## 👋 **About Me**
 Hi, I'm Umair. At 29, I'm completing my PhD in Artificial Intelligence alongside full-time work. Below is a curated archive of sounds, science, visions, and writings that have profoundly inspired me over the years.
 
-## ☑ **stuff**
  * 📚 **Master of Business Administration (MBA)** in Business (**4.0 GPA**).
  * 📚 **Master of Science (MS)** in Cybersecurity and Information Assurance (**4.0 GPA**). 
  * 📚 **Bachelor of Science (B.S.)** in Honors Biomedical Sciences (**3.97 GPA**).
